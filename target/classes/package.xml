@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package>
+<infos>
+<name>Default Page Template Application</name>
+<description>Sets the default template provider used when creating a new child page in a specific location.</description>
+<licence></licence>
+<author>XWiki.Admin</author>
+<extensionId>com.xwiki.defaultPageTemplate:application-defaultPageTemplate</extensionId>
+<version>1.0-SNAPSHOT</version>
+<backupPack>false</backupPack>
+</infos>
+<files>
+<file language="" defaultAction="0">XWiki.DefaultPageTemplateClass</file>
+</files>
+</package>
