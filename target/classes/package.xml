@@ -7,7 +7,7 @@
 <licence></licence>
 <author>XWiki.Admin</author>
 <extensionId>com.xwiki.defaultPageTemplate:application-defaultPageTemplate</extensionId>
-<version>1.0-SNAPSHOT</version>
+<version>1.1-SNAPSHOT</version>
 <backupPack>false</backupPack>
 </infos>
 <files>
