@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.3" reference="XWiki.DefaultPageTemplateClass" locale="">
+<xwikidoc version="1.2" reference="XWiki.DefaultPageTemplateClass" locale="">
   <web>XWiki</web>
   <name>DefaultPageTemplateClass</name>
   <language/>
@@ -50,17 +50,12 @@
     <nameField/>
     <validationScript/>
     <defaultPageTemplate>
-      <customDisplay/>
       <disabled>0</disabled>
-      <hint/>
       <name>defaultPageTemplate</name>
       <number>1</number>
-      <picker>1</picker>
       <prettyName>defaultPageTemplate</prettyName>
       <size>30</size>
       <unmodifiable>0</unmodifiable>
-      <validationMessage/>
-      <validationRegExp/>
       <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
     </defaultPageTemplate>
   </class>
@@ -68,7 +63,7 @@
     <name>XWiki.DefaultPageTemplateClass</name>
     <number>0</number>
     <className>XWiki.DocumentSheetBinding</className>
-    <guid>cf1afc59-894a-4b13-8d89-cc48ae998010</guid>
+    <guid>5412e6f9-297f-4ddf-9a27-b34e44a9b575</guid>
     <class>
       <name>XWiki.DocumentSheetBinding</name>
       <customClass/>
@@ -79,29 +74,17 @@
       <nameField/>
       <validationScript/>
       <sheet>
-        <cache>0</cache>
-        <classname/>
         <customDisplay/>
         <disabled>0</disabled>
-        <displayType>input</displayType>
-        <hint/>
-        <idField/>
-        <multiSelect>0</multiSelect>
         <name>sheet</name>
         <number>1</number>
-        <picker>1</picker>
+        <picker>0</picker>
         <prettyName>Sheet</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators/>
         <size>30</size>
-        <sort>none</sort>
-        <sql/>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
-        <valueField/>
-        <classType>com.xpn.xwiki.objects.classes.PageClass</classType>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </sheet>
     </class>
     <property>
@@ -112,7 +95,7 @@
     <name>XWiki.DefaultPageTemplateClass</name>
     <number>0</number>
     <className>XWiki.JavaScriptExtension</className>
-    <guid>ccb8e3ce-6f50-4909-b842-460b7df4ea53</guid>
+    <guid>dfaeabfb-9e61-4527-89a2-53bc756b6117</guid>
     <class>
       <name>XWiki.JavaScriptExtension</name>
       <customClass/>
@@ -220,7 +203,7 @@
     <name>XWiki.DefaultPageTemplateClass</name>
     <number>0</number>
     <className>XWiki.UIExtensionClass</className>
-    <guid>459d00d8-9413-4961-b37a-9a8b659634ca</guid>
+    <guid>e3ebf263-4a3a-4376-a065-6bb8d470374f</guid>
     <class>
       <name>XWiki.UIExtensionClass</name>
       <customClass/>
