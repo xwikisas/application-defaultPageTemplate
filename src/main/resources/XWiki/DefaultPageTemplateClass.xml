@@ -272,7 +272,7 @@
       </scope>
     </class>
     <property>
-      <content>{{velocity}}
+      <content>{{velocity output='false'}}
 #set($obj = $doc.getObject('XWiki.DefaultPageTemplateClass'))
 #if($obj)
   #set($templateValue = $obj.getValue('defaultPageTemplate'))
