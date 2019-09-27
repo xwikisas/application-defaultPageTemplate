@@ -272,13 +272,15 @@
       </scope>
     </class>
     <property>
-      <content>{{velocity output='false'}}
+      <content>{{velocity}}
 #set($obj = $doc.getObject('XWiki.DefaultPageTemplateClass'))
 #if($obj)
   #set($templateValue = $obj.getValue('defaultPageTemplate'))
   $xwiki.jsx.use('XWiki.DefaultPageTemplateClass')
   {{html}}
-    &lt;input type="hidden" name="defaultPageTemplate" value="$templateValue" /&gt;
+    &lt;div&gt;
+      &lt;input type='hidden' name='defaultPageTemplate' value="$templateValue"&gt;
+    &lt;/div&gt;
   {{/html}}
 #end
 {{/velocity}}</content>
