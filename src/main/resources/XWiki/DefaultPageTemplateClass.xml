@@ -277,10 +277,8 @@
 #if($obj)
   #set($templateValue = $obj.getValue('defaultPageTemplate'))
   $xwiki.jsx.use('XWiki.DefaultPageTemplateClass')
-  {{html}}
-    &lt;div&gt;
-      &lt;input type='hidden' name='defaultPageTemplate' value="$templateValue"&gt;
-    &lt;/div&gt;
+  {{html clean='false'}}
+    &lt;input type='hidden' name='defaultPageTemplate' value="$templateValue"&gt;
   {{/html}}
 #end
 {{/velocity}}</content>
