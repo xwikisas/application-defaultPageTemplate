@@ -31,7 +31,7 @@
   <artifactId>application-defaultPageTemplate</artifactId>
   <packaging>xar</packaging>
   <name>Default Page Template Application</name>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <description>Sets the default template provider used when creating a new child page in a specific location.</description>
   <issueManagement>
     <system>GitHub</system>
@@ -41,6 +41,6 @@
     <connection>scm:git:git://github.com/xwikisas/application-defaultPageTemplate.git</connection>
     <developerConnection>scm:git:git@github.com:xwikisas/application-defaultPageTemplate.git</developerConnection>
     <url>https://github.com/xwikisas/application-defaultPageTemplate/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>application-defaultPageTemplate-1.4</tag>
   </scm>
 </project>
